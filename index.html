@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>简历</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div id="container">
+		<div class="section active" id="section0">
+			<h1 class="title">WELCOME</h1>
+		</div>
+		<div class="section" id="section1">
+			<div class="intro">
+				<h1 class="title">EDUCATION</h1>
+				<div class="education">
+					<h2>浙江大学&nbsp;&nbsp;信息与电子工程学院&nbsp;&nbsp;硕士研究生</h2>
+					<p>专业：电子科学与技术<br/>研究方向：光网络与光通信、微波光子学</p>
+					<p>2014-09至2017-06</p>
+					<h2>杭州电子科技大学&nbsp;&nbsp;电子信息学院&nbsp;&nbsp;本科</h2>
+					<p>专业：电子信息工程</p>
+					<p>2010-09至2014-06</p>
+				</div>
+			</div>			
+		</div>
+		<div class="section" id="section2">
+			<div class="intro">
+				<h1 class="title">SKILL</h1>
+				<p></p>
+			</div>
+		</div>
+		<div class="section" id="section3">
+			<div class="intro">
+				<h1 class="title">PROJECT</h1>
+				<p></p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="lib/jquery-1.11.2.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript" src="lib/pageswitch.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#container").switchPage({
+				'loop' : true,
+				'keyboard' : true,
+				'duration' : 500,
+				'direction' : 'vertical'
+			});
+		});
+	</script>
+</body>
+</html>
