@@ -4,4 +4,4 @@
 
 ##希望自己的前端之路能够越走越好。加油，求职前端工程师。
 
-###[查看简历]('https://limingyang2012.github.io/cv')
+###[查看简历](https://limingyang2012.github.io/cv)
